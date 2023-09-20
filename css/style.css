@@ -565,29 +565,34 @@ Table of Contents
      transition: all ease-in-out 0.8s;
 }
  .boxbg1{
-     background: url("../img/lash_extension.jpg");
+     background: url("../img/lashes\ 3.jpg");
      background-size: cover;
-     background-position:bottom;
+     background-repeat: no-repeat;
+     background-position:center;
 }
  .boxbg2{
-     background: url("../img/services/lips.jpg");
+     background: url("../img/lips\ 2.jpg");
      background-size: cover;
+     background-position:top;
 }
  .boxbg3{
-     background: url("../img/contact.jpg");
+     background: url("../img/lashes\ 2.jpg");
      background-size: cover;
+     background-position: center;
 }
  .card-service.bg-1 {
      background-size:cover;
-     background-image: url('../img/services/brows.jpg');
+     background-image: url('../img/eye\ brow.jpeg');
+     background-position: bottom;
 }
  .card-service.bg-2 {
      background-size:cover;
-     background-image: url('../img/services/lips.jpg');
+     background-image: url('../img/lips\ 3.jpg');
 }
  .card-service.bg-3 {
      background-size:cover;
-     background-image: url('../img/services/lashes.jpg');
+     background-image: url('../img/lashes\ 4.jpg');
+     background-position: center;
 }
  .card-service.bg-4 {
      background-size:cover;
