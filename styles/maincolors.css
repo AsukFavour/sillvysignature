@@ -17,7 +17,7 @@ Main Color scheme
 
 /* light pink */
 .card.bg-light,#blog-sidebar .card-header,#elements h3.subheader,.table-striped>tbody>tr:nth-of-type(odd),.list-group-item,.bg-light{
-     background-color:rgb(211 155 90 / 16%)!important;
+     background-color: #ee4f8c !important;
 }
 
 /* Black */
