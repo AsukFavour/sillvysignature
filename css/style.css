@@ -574,16 +574,19 @@ Table of Contents
  .text-grid,.box-effect{
      visibility: hidden;
 }
+
+
 /* backgrounds */
  .boxbg1,.boxbg2,.boxbg3{
      background-repeat: no-repeat;
      transition: all ease-in-out 0.8s;
 }
  .boxbg1{
-     background: url("../img/lashes\ 3.jpg");
+     
      background-size: cover;
      background-repeat: no-repeat;
      background-position:center;
+     
 }
  .boxbg2{
      background: url("../img/lips\ 2.jpg");
@@ -594,6 +597,15 @@ Table of Contents
      background: url("../img/lashes\ 2.jpg");
      background-size: cover;
      background-position: center;
+}
+
+video#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers entire container */
 }
  .card-service.bg-1 {
      background-size:cover;
@@ -624,7 +636,7 @@ Table of Contents
  #bg-about1 {
      background-size:cover;
      background-position: center;
-     background-image: url('../img/about/about1.jpg');
+     background-image: url('../img/Silvvy.jpg');
      min-height: 300px;
 }
  #bg-about2 {
