@@ -636,13 +636,13 @@ video#background-video {
  #bg-about1 {
      background-size:cover;
      background-position: center;
-     background-image: url('../img/Silvvy.jpg');
+     background-image: url('../img/ms.silvvy.jpg');
      min-height: 300px;
 }
  #bg-about2 {
      background-size:cover;
      background-position: center;
-     background-image: url('../img/layerlips.jpg');
+     background-image: url('../img/machine.jpg');
 }
  .call-to-action1 {
      background-size:cover;
