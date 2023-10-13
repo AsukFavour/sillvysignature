@@ -614,7 +614,8 @@ video#background-video {
 }
  .card-service.bg-2 {
      background-size:cover;
-     background-image: url('../img/lips\ 3.jpg');
+     background-image: url('../img/lips6.jpg');
+     background-position: bottom;
 }
  .card-service.bg-3 {
      background-size:cover;
