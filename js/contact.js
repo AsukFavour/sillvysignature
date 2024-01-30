@@ -94,7 +94,7 @@ function SendMail() {
     emailjs.send("service_pg333ub", "template_1cr2bfk", params)
         .then(function(res) {
             alert("Your message has been sent successfully!");
-            // Clear the form fields after successful submission
+            
              // Clear the form fields after successful submission
              document.getElementById("name").value = "";
              document.getElementById("email").value = "";
