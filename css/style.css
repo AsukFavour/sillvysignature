@@ -29,7 +29,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
 }
 
 p,
@@ -602,17 +602,18 @@ a:focus {
   transition: all ease-in-out 0.8s;
 }
 .boxbg1 {
+  background: url("../img/coverpic.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .boxbg2 {
-  background: url("../img/lashes-index.jpg");
+  background: url("../img/coverpic2.png");
   background-size: cover;
   background-position: center;
 }
 .boxbg3 {
-  background: url("../img/brow-index3.jpg");
+  background: url("../img/coverpic3.png");
   background-size: cover;
   background-position: center;
 }
@@ -1349,6 +1350,31 @@ button.list-group-item:hover {
 .accordion-button.collapsed,
 .accordion-button:not(.collapsed) {
   background: transparent;
+}
+
+.services-header {
+  text-align: center;
+  margin-top: 40px;
+}
+.services-container {
+  max-width: 800px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 0;
+}
+.service {
+
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.service h5 {
+  margin-top: 0;
+}
+.service p {
+  margin-bottom: 0;
 }
 /*=========================== Media queries ============================ */
 /* Small devices (landscape phones, 544px) */

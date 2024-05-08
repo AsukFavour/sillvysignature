@@ -7960,6 +7960,7 @@ textarea.form-control-lg {
   margin: 20% ;
   padding: 2.5rem;
   background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
 }
 
 .m-1 {
