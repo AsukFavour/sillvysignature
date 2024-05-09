@@ -643,7 +643,8 @@ video#background-video {
 }
 .card-service.bg-4 {
   background-size: cover;
-  background-image: url("../img/services/training.jpg");
+  background-image: url("../img/services/training.jpeg");
+  background-position: center;
 }
 .card-service.bg-5 {
   background-size: cover;
