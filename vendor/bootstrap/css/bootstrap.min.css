@@ -1388,7 +1388,7 @@ progress {
   }
   .col-lg-3 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 30%;
   }
   .col-lg-4 {
     flex: 0 0 auto;
@@ -1430,7 +1430,7 @@ progress {
     margin-left: 0;
   }
   .offset-lg-1 {
-    margin-left: 8.33333333%;
+    margin-left: 3%;
   }
   .offset-lg-2 {
     margin-left: 16.66666667%;

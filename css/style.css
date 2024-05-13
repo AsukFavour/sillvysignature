@@ -577,9 +577,9 @@ a:focus {
   margin: auto;
   display: inline-flex;
 }
-.feature-img img {
+/* .feature-img img {
   height: 70px;
-}
+} */
 /* home image grid */
 .img-grid {
   overflow: hidden;
