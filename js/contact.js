@@ -82,6 +82,12 @@ emailjs.init("zCo1WPdLTSeKrx-My");
 // });
 
 function SendMail() {
+    let recaptcha = grecaptcha.getResponse();
+    if (recaptcha === "") {
+        alert("Please complete the reCAPTCHA");
+        return;
+    }
+
     let params = {
         to_name: "Silvvy Signature",
         name: document.getElementById("name").value,
@@ -89,22 +95,27 @@ function SendMail() {
         phone: document.getElementById("phone").value,
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value,
+        "g-recaptcha-response": recaptcha
     };
 
     emailjs.send("service_pg333ub", "template_1cr2bfk", params)
         .then(function(res) {
             alert("Your message has been sent successfully!");
-            
-             // Clear the form fields after successful submission
-             document.getElementById("name").value = "";
-             document.getElementById("email").value = "";
-             document.getElementById("phone").value = "";
-             document.getElementById("subject").value = "";
-             document.getElementById("message").value = "";
+
+            // Clear the form fields after successful submission
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("subject").value = "";
+            document.getElementById("message").value = "";
+
+            // Reset the reCAPTCHA
+            grecaptcha.reset();
         })
         .catch(function(error) {
             console.log("Error sending email:", error);
             alert("An error occurred while sending your message. Please try again later.");
         });
 }
+
 
