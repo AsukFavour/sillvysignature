@@ -804,5 +804,12 @@
     <script src="js/animations.js"></script>
     <!-- Open Street maps -->
     <script src="js/map.js"></script>
+
+    <script>window.onload = function() {
+      let links = document.getElementsByTagName('a');
+      for (let i = 0; i < links.length; i++) {
+          links[i].href = links[i].href.replace('.html', '');
+      }
+  };</script>
   </body>
 </html>
