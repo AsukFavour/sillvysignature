@@ -1,3 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} silvvysignature\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://silvvysignature.com/$1 [R,L]
+
+
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
